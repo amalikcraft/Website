@@ -76,6 +76,14 @@ h6 {
   font-family: var(--heading-font);
 }
 
+
+.experience-logo {
+  width: auto;
+  height: 2em; /* Adjust this value to scale the logo size */
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
