@@ -1,2 +1,17 @@
+User-agent: *
+Disallow: /
+
 User-agent: ia_archiver
 Disallow: /
+
+
+User-agent: Googlebot-Image
+Disallow: /img/
+
+
+
+User-agent *
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /vendor/
