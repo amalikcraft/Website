@@ -1346,3 +1346,118 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+@media (max-width: 767px) {
+  section,
+  .section {
+    padding: 36px 20px;
+  }
+
+  .section-title {
+    padding-bottom: 28px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+  }
+
+  .hero {
+    min-height: 85vh;
+    padding: 56px 20px;
+  }
+
+  .hero h2,
+  .hero p {
+    margin: 12px 0;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+  }
+
+  .about #image {
+    display: block;
+    margin-bottom: 22px;
+  }
+
+  .about .content {
+    padding: 0;
+  }
+
+  .about .text-container,
+  .about .custom-list {
+    height: auto;
+    overflow: visible;
+  }
+
+  .about .custom-list {
+    font-size: 16px;
+  }
+
+  .resume .resume-title {
+    font-size: 23px;
+  }
+
+  .resume .resume-item h4 {
+    line-height: 1.35;
+  }
+
+  .skill-button {
+    max-width: 100%;
+    padding: 9px 13px;
+    font-size: 14px;
+  }
+
+  .portfolio .portfolio-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .portfolio .portfolio-filters li {
+    margin: 0;
+    padding: 10px 8px;
+    line-height: 1.25;
+  }
+}
+
+@media (hover: none) {
+  .portfolio .portfolio-content .portfolio-info {
+    position: relative;
+    opacity: 1;
+    background: #101820;
+    padding: 14px;
+  }
+
+  .portfolio .portfolio-content .portfolio-info h4 {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .portfolio .portfolio-content .portfolio-info p {
+    position: static;
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .portfolio .portfolio-content .portfolio-info .preview-link,
+  .portfolio .portfolio-content .portfolio-info .details-link {
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-right: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 50%;
+    font-size: 23px;
+    line-height: 1;
+  }
+}
